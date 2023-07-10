@@ -1,0 +1,57 @@
+.boton-contenedor {
+  display: flex;
+  flex: 1 1;
+  border-radius: 5px;
+  height: 50px;
+  border: 3px solid #fff;
+  padding: 0.6em 1.2em;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #35995b;
+  color: #fff;
+  margin: 5px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  user-select: none;
+}
+.boton-contenedor:hover {
+  border-color: #646cff;
+  background-color: #bfff0e;
+  color: black;
+}
+.boton-contenedor:focus,
+.boton-contenedor:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.operador {
+  background-color: #646cff;
+}
+
+.operador:hover {
+  background-color: #ff6600;
+}
+
+.boton-clear {
+  height: 70px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 14;
+  background-color: #fcb5e4;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.boton-clear:hover {
+  background-color: red;
+}
